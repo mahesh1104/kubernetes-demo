@@ -1,0 +1,14 @@
+pod is an instance of the application deploy on the kubernet cluster - application can have one container or more
+
+deploymet is mutiple set of pods, single induval pod or set of pods. mutiiple instance of pods deployment of cluster
+
+services is logical set of pods.
+
+
+kube Master node - will handle all the deployment of the worker node. 
+                   If you have mutiple nodes in the kubernet cluster, which port has to goes to which node.
+
+Kube Worker node - Creates the port and Creates the container runtime(most of the container runtime is docker )
+
+Master node - will do all the admistration tasks of the kubernet cluster.
+Worker node - were the actual application or container , were ports are created and maintained.
